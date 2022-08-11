@@ -1,0 +1,12 @@
+In order to implement a version of tic-tac-toe that would be playable
+I made the assumption that "no user interface" meant nothing big/creative and
+graphical was meant, if the case was that absolutely no interface was
+intended then simply commenting out my print function would allow the 
+game to continue being played while tracking all game data and giving
+the players back no information.
+
+I also made the assumption that the meaning of "it should be written such
+that a tic-tac-toe interface could use it" meant that the gameBoard would 
+need a way to get what pieces are on specific spots on the board and that
+a gameBoard object would be able to set pieces as well if needed (unused
+as that functionality lies in the run function so the game is playable).
